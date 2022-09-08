@@ -1,0 +1,248 @@
+.jobs-main-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+}
+
+.jobs-and-filter-groups-container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-and-filter-groups-container {
+    width: 92%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-container {
+    width: 100%;
+  }
+}
+
+.jobs-list {
+  padding-left: 0px;
+}
+
+.no-jobs-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-view-container {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 32px;
+  }
+}
+
+.no-jobs-image {
+  height: 250px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-image {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-heading {
+    font-size: 42px;
+    margin-top: 25px;
+  }
+}
+
+.no-jobs-description {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .no-jobs-description {
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60%;
+    max-width: 450px;
+  }
+}
+
+.render-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .render-failure-view-container {
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 0px;
+  }
+}
+
+.jobs-failure-image {
+  height: 250px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-image {
+    height: 350px;
+    width: 400px;
+  }
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.3;
+  font-family: 'Roboto';
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 35px;
+  }
+}
+
+.failure-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-description {
+    font-size: 15px;
+  }
+}
+
+.failure-button {
+  color: #ffffff;
+  background-color: #4f46e5;
+  height: 50px;
+  width: 120px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-grow: 1;
+}
+
+.search-input-jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-jobs-list-container {
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    margin-left: 40px;
+    margin-top: 28px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.search-input-box {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  width: 450px;
+}
+
+.search-button {
+  background-color: #475569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+}
+
+.search-icon {
+  color: #ffffff;
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-input-container {
+    display: none;
+  }
+}

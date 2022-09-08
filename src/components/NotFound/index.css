@@ -1,0 +1,45 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.not-found {
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+.page-not-found {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .page-not-found {
+    font-size: 45px;
+  }
+}
+.not-found-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    font-size: 18px;
+  }
+}
